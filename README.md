@@ -1,24 +1,43 @@
-# README
+![Commandify workflow](https://github.com/tflem/commandify/actions/workflows/commandify.yml/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ad6f512e00fb715e6db2/maintainability)](https://codeclimate.com/github/tflem/commandify/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ad6f512e00fb715e6db2/test_coverage)](https://codeclimate.com/github/tflem/commandify/test_coverage)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Commandify
 
-Things you may want to cover:
+> This is just a simple note-taking application, featuring Turbo as well as:
 
-* Ruby version
+- Ruby on Rails 7.0.2.4
+- Ruby 3.1.2
+- HTML5 and Sass 1.51.0
+- PostgreSQL (Tested for 14.x)
+- Testing: Minitest
+- Code Bundler: esbuild 0.14.38
+- Continuous Integration/Deployment: Github Actions/Heroku
 
-* System dependencies
+## Setup
 
-* Configuration
+How to run tests:
 
-* Database creation
+```
+% rails test or rails t for short
+```
 
-* Database initialization
+How to run the development console:
 
-* How to run the test suite
+```
+% rails console or rails c for short
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+How to run the development server:
 
-* Deployment instructions
+```
+% rails server or rails s for short
+```
 
-* ...
+How to prepare (create and migrate) DB for `development` and `test` environments:
+
+```
+% rails db:create
+
+% rails db:migrate
+```
