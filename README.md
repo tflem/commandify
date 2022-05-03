@@ -4,7 +4,7 @@
 
 # Commandify
 
-> This is just a simple note-taking application, featuring Turbo as well as:
+> A simple command-tracking application, featuring Turbo as well as:
 
 - Ruby on Rails 7.0.2.4
 - Ruby 3.1.2
