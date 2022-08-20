@@ -1,0 +1,10 @@
+<main class="container">
+  <div class="header">
+    <h1>Commands</h1>
+      <%= link_to "New Command",
+                  new_command_path,
+                  class: "btn btn--primary" %>
+  </div>
+
+  <%= render @commands %>
+</main>
