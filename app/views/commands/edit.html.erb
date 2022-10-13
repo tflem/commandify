@@ -1,0 +1,11 @@
+<%# app/views/commands/edit.html.erb %>
+
+<main class="container">
+  <%= link_to sanitize("&larr; Back to command"), command_path(@command) %>
+
+  <div class="header">
+    <h1>Edit Command</h1>
+  </div>
+
+  <%= render "form", command: @command %>
+</main>

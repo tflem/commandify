@@ -1,4 +1,5 @@
 class CommandsController < ApplicationController
+  before_action :set_command, only: [:show, :edit, :update, :destroy]
 
   def index
     @commands = Command.all
@@ -17,8 +18,24 @@ class CommandsController < ApplicationController
     if @command.save
       redirect_to commands_path, notice: "Your command was saved successfully."
     else
-      render :new
+      render :new, status: :unprocessable_entity
     end
+  end
+
+  def edit
+  end
+
+  def update
+    if @command.update(command_params)
+      redirect_to commands_path, notice: "Your command was updated successfully."
+    else
+      render :edit, status: :unprocessable_entity
+    end
+  end
+
+  def destroy
+    @command.destroy
+    redirect_to commands_path, notice: "Your command was destroyed successfully."
   end
 
   private

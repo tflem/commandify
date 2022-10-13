@@ -1,4 +1,14 @@
+<%# app/views/commands/_command.html.erb %>
+
 <div class="command">
   <%= link_to command.name, command_path(command) %>
-  <div class="quote__actions">
+  <div class="command__actions">
+    <%= button_to "Delete",
+                  command_path(command),
+                  method: :delete,
+                  class: "btn btn--light" %>
+    <%= link_to "Edit",
+                edit_command_path(command),
+                class: "btn btn--light" %>
+  </div>
 </div>
