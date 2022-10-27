@@ -6,7 +6,7 @@
 
 > A simple command-tracking application, featuring Hotwire as well as:
 
-- Hotwire/Turbo-Rails 7.2.2
+- Hotwire/Turbo-Rails 7.2.4
 - Ruby on Rails 7.0.4
 - Ruby 3.1.2
 - HTML5 and Sass 1.55.0
