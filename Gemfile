@@ -5,7 +5,7 @@ ruby "3.1.2"
 
 gem "rails", "~> 7.0.2", ">= 7.0.3"
 gem "sprockets-rails"
-gem "pg", "~> 1.1"
+gem 'pg', '~> 1.5', '>= 1.5.3'
 gem "puma", "~> 5.0"
 gem "jsbundling-rails"
 gem "turbo-rails"
