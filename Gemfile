@@ -3,10 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
-gem "rails", "~> 7.0.2", ">= 7.0.3"
+gem "rails", "~> 7.1", ">= 7.1.1"
 gem "sprockets-rails"
-gem 'pg', '~> 1.5', '>= 1.5.3'
-gem "puma", "~> 5.0"
+gem "pg", "~> 1.5", ">= 1.5.3"
+gem "puma", "~> 6.4"
 gem "jsbundling-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
