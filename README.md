@@ -1,6 +1,4 @@
 ![Commandify workflow](https://github.com/tflem/commandify/actions/workflows/commandify.yml/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ad6f512e00fb715e6db2/maintainability)](https://codeclimate.com/github/tflem/commandify/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/ad6f512e00fb715e6db2/test_coverage)](https://codeclimate.com/github/tflem/commandify/test_coverage)
 
 # Commandify
 
