@@ -5,12 +5,12 @@
 > A simple command-tracking application, featuring Hotwire as well as:
 
 - Hotwire/Turbo-Rails 8.0.16
-- Ruby on Rails 8.0.2
+- Ruby on Rails 8.0.2.1
 - Ruby 3.4.4
-- HTML5 and Sass 1.89.2
+- HTML5 and Sass 1.92.0
 - PostgreSQL (Tested for 16.x)
 - Testing: Minitest 5.25.5
-- Code Bundler: esbuild 0.25.8
+- Code Bundler: esbuild 0.25.9
 - Continuous Integration/Deployment: Github Actions/Digital Ocean
 
 ## Setup
