@@ -1,4 +1,4 @@
-// app/assets/stylesheets/components/_command.scss
+@use '../mixins/media';
 
 .command {
   display: flex;
@@ -12,7 +12,7 @@
   margin-bottom: var(--space-m);
   padding: var(--space-xs);
 
-  @include media(tabletAndUp) {
+  @include media.tabletsAndUp {
     padding: var(--space-xs) var(--space-m);
   }
 
